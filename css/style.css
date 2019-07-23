@@ -1,142 +1,28 @@
-body {
-    background-color: #f8f8f8
+.facolor {
+    color: white;
 }
 
-.footer {
-    position: fixed;
-    /* Фиксированное положение */
-    left: 0;
-    bottom: 0;
-    /* Левый нижний угол */
-    padding: 1px;
-    /* Поля вокруг текста */
-    background: darkblue;
-    /* Цвет фона */
-    color: #fff;
-    /* Цвет текста */
-    width: 100%;
-    /* Ширина слоя */
-}
-
-.menu li {
-    width: 100px;
-    height: 25px;
-    list-style-type: none;
-    border: 1px solid #000;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    text-align: center;
-    display: inline-flex;
-    margin-right: 1px;
-    padding-top: 1px;
+header {
+    background-color: #445162;
 
 }
 
-.menu li a {
-    color: #336699;
+header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+    color: white;
+    margin-top: 50px;
+}
+
+header p {
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    text-decoration: none;
+    color: white;
 }
 
-.menu li a:hover {
-    color: red;
+.navStyle {
+    
+    margin: 50px 0px 0px 0px;
+    
 }
 
-.menu li a:active {
-    color: green;
-}
-
-.head1 {
-    text-align: center;
-}
-
-.heading {
-    color: darkslateblue;
-    background-color: #eaeaea;
-    border: 1px solid black;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.list {
-    /*list-style-type: square;*/
-    color: #484343;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: left;
-    list-style-image: url(../img/list.png);
-}
-
-.short_description {
-    color: #707070;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 16px;
-}
-
-.detail_desc {
-    color: #484343;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-}
-
-.detail_desc::first-letter {
-    font-size: 18px;
-    color: brown;
-}
-
-.short_description::first-letter {
-    font-size: 18px;
-    color: brown;
-}
-
-input[type="text"] {
-    width: 300px;
-    height: 15px;
-    font-size: 14px;
-    font-style: italic;
-    color: darkblue;
-}
-
-.img_prod {
-    outline: 1px solid darkblue;
-}
-
-.img_prod:hover {
-    outline: 0px;
-}
-
-.feedback {
-    text-align: center;
-}
-
-#email:hover {
-    color: darkblue;
-    background-color: floralwhite;
-}
-
-#input_name {
-    text-transform: capitalize;
-}
-
-.spec_table {
-    border: 1px solid #000;
-    border-collapse: collapse;
-    margin: auto;
-}
-
-.spec_table td {
-    border: 1px solid #000;
-    text-align: center;
-}
-
-.spec_table tr:first-child {
-    color: darkblue;
-    background-color: floralwhite;
-    height: 60px;
-}
